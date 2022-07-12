@@ -10,5 +10,10 @@ import './style.css';
 
    return element;
  }
+ 
+ let listElement = document.getElementsByTagName('li');
+ for(let i = 0; i < listElement.length; i++) {
+    const 
+ }
 
  document.body.appendChild(component());
